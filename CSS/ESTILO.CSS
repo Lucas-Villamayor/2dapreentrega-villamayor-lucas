@@ -1,11 +1,9 @@
 *{Margin: 0;
 Padding: 0;
     }
+/* ---------------------------------------Pagina principal------------------------------------------ */
+@media (max-widht:768px) {}
 
-
-/*
- h1 { text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif; } */
 
  header { border: solid black;
     display: flex;
@@ -18,7 +16,7 @@ background-color: #F2BED1;}
 .div1 {
     display: flex;
     }
-     /* body {background-color: ;} */
+    
 .logo {margin: 5px;
         width: 80px;
         height: 80px;
@@ -123,12 +121,6 @@ color: black;}
 
 form a { color: #E893CF;
 text-decoration-line: none;}
- 
-/* article { display: flex;
-    align-items: center;
-    width: 250px;
-    flex-direction: column; */
-
 
 input a { margin: 10px;
 font-family: Georgia, 'Times New Roman', Times, serif;}
@@ -138,8 +130,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;}
 h2 { padding: 30px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: medium;}
-/* 
-.elegidos { display: flex;} */
 
  .menu {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -170,70 +160,6 @@ width: 80%;
 margin: auto;} 
   
 .card-img-top { width: 100%;}
-/* width: 800px;
-height: 500px;
-overflow: hidden; */
-/* }
-.elegidos { display: flex;
-width: 800px;} */ 
-
-/* .card-img-top { width: 400px;}  */
-
-    /* width: 600px;
-    height: 500px; */
-
-
-/* @media (width:950px) {.menu {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 600px;
-    width: 800px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "buscador contenido contenido"
-      "buscador elegidos elegidos"
-      "carrusel carrusel carrusel";}} */
-
-/* .card2 { display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-overflow: hidden;} */
-
-/*
- main div { border: solid black 2px;
-background-color: aquamarine;
-width: 200px;
-height: 200px;
-overflow: hidden;
-display: flex;
-}
-div img { width: 150px;
-    height: 200px;
-display: flex;
-align-items: center;}
-
-
-/* display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
-/* display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: flex-end;
-/* justify-content: center; */
-/* justify-content: space-around; */
-/* align-content:space-around;
-/* align-items: center; */
-/* flex-wrap: wrap; */
-
-/* div img {
-    width: 200px;
-    height: 200px;
-} */
-
-/* img{width: 100px;
-height: 100px;
-}*/
 
 /* ---------------------------------productos----------------------------------------- */
 .encabezado { display: flex;
@@ -480,6 +406,14 @@ margin-top: 10px;}
 .wsp {width: 3%;}
 .instagram  {width: 3%;}
 .facebook {width: 3%;}
+
+@media (max-width: 460px) {
+    .imagenes-nosotros {display: flex;
+        flex-direction: column;}
+}
+
+article p { width: 80%;
+margin: auto;}
 /* 
 ---------------------------------- contacto -------------------- */
 .contacto { height: 400px;
