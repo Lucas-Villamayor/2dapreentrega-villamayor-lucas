@@ -1,17 +1,19 @@
-*{Margin: 0;
-Padding: 0;
-    }
+
 /* ---------------------------------------Pagina principal------------------------------------------ */
 @media (max-widht:768px) {}
 
 
- header { border: solid black;
+header { border: solid black;
     display: flex;
     justify-content: space-around;
     align-items: center; ;
     flex-wrap: wrap-reverse;
 flex-direction: row-reverse;
 background-color: #F2BED1;}
+
+header a { text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif }
 
 .navbar { width: 100%;
 display: flex;
@@ -30,10 +32,7 @@ margin: 10px;}
         height: 80px;
         border: solid 2px black; }
 
- header a { text-decoration: none;
-text-transform: uppercase;
-font-family: sans-serif }
-
+ 
 ul {
     display: flex;
     list-style-type: none;
